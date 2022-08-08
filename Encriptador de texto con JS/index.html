@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">   
+  <title>Encriptador de Texto con JavaScript</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1 class="titulo">Encriptador de Texto con JavaScript v1.0</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form id="formulario">
+        <label for="input-texto">Por favor ingrese solo letras minúsculas, sin acentos</label>
+        <textarea class="text-input" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui" rows="5" cols="50"></textarea>
+        <div class="button-container">
+          <input class="btn" type="submit" value="Encriptar " id="btn-encriptar">
+          <input class="btn" type="submit" value="Desencriptar " id="btn-desencriptar">
+        </div>
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <label for="mensaje-texto">Mensaje encriptado</h2></label>
+      <textarea class="text-input" name="mensaje-texto" id="mensaje-texto"rows="5" cols="50"></textarea>              
+      <input class="btn" type="submit" value="Copiar texto" id="btn-copy">
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Elaborado por Jean Carlos Obando 🤖 &copy; copyright 2022</span>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

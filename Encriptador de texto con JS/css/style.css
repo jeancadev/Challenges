@@ -1,0 +1,128 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after { /* Aplicar a todo el contenido */
+  box-sizing: inherit;
+}
+
+body {
+  background: linear-gradient(to right,#7FFFD4,#F0FFFF); 
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.6rem;
+}
+
+.main {
+  max-width: 45rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.titulo {
+  font-size: 3rem;
+  padding: 1.5rem;
+  text-align: center;
+  margin: auto;
+  color:#3CB371;
+  font-weight: normal;
+}
+
+
+.box {
+  padding: 1rem;
+  margin: 0 1rem 0 1rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  background-color: #F5F5F5;
+  border-radius: 0.5rem;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  color: white;
+  background-color: #38b2ac;
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container:last-child {
+  margin-right: 0;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color:#2c7a7b;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  
+}
+
+.btn:hover {
+  background-color:#38b2ac;
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.text-input {
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-family: sans-serif;
+}
+
+.error {
+  background-color: #ff0000;    
+  padding: 1rem;    
+  font-size: 1.3rem;    
+  margin: 1rem auto 0;
+  color: white;   
+  text-align: center; 
+  text-transform: uppercase;  
+  border-radius: 0.5rem;
+}
+
+.footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #FFFFFF;  
+}
+
+.footer span {  
+  font-weight: bold;
+  color: #3CB371;
+  padding: 40px;
+}
