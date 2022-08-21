@@ -5,7 +5,7 @@ Este es el primer reto del curso de ONE Oracle-Alura Latam, creado con HTML, CSS
 ## Autor 💻
 **Jean Carlos Obando**
 
-*[LinkedIn](https://www.linkedin.com/in/jeancarlosobando/)
+[LinkedIn](https://www.linkedin.com/in/jeancarlosobando/)
 
 ## Ver ejemplo en vivo
 - [ENLACEGITHUBPAGES](https://jeancadev.github.io/Code-Alura/)
